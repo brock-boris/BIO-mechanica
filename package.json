@@ -1,4 +1,28 @@
 {
-  "name": "BIO-mechanica",
-  "packageManager": "yarn@3.2.4"
+  "name": "bio-mechanica",
+  "packageManager": "yarn@3.2.4",
+  "description": "This is my very first testing project.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brock-boris/BIO-mechanica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brock-boris/BIO-mechanica/issues"
+  },
+  "homepage": "https://github.com/brock-boris/BIO-mechanica#readme",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "2.7.1"
+  }
 }
